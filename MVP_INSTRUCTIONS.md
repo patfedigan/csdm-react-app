@@ -10,9 +10,21 @@ This project is a minimal React app called **csdm-react-app** for learning and v
 - Practice collaborative, iterative software development
 
 ## Workflow
-- You (the learner) will implement 85% of the code, guided by templates and comments
+- You (the learner) will implement 25% of the code, focusing on key React syntax and features
+- I will scaffold and implement the core structure, you'll practice specific React concepts
+- Focus on core configurations, component structure, and fundamental React patterns
 - We will design, scaffold, and iterate together
 - All code and design decisions will be documented here for future reference
+
+## Implementation Guidelines
+- **Message Streaming**: Present only one step at a time to avoid scrolling in the agent viewer
+- **Step-by-Step Approach**: After each page of information, prompt the user to continue
+- **Clear Breaks**: Separate major implementation phases with explicit continuation prompts
+- **Focused Learning**: Each step should focus on one React concept or feature
+- **Progressive Complexity**: Start simple and build up complexity gradually
+- **Targeted Practice**: You'll type specific React syntax and patterns while I handle the scaffolding
+- **Core React Focus**: Avoid implementing HTML tags - focus only on React syntax within existing tags
+- **React Syntax Only**: Practice useState, useEffect, props, imports, exports, and other React patterns
 
 ## MVP Features
 - Home page: App intro and navigation
@@ -47,4 +59,5 @@ csdm-react-app/
 
 ## Next Steps
 - Scaffold the project with template files and comments
-- Implement features incrementally, updating this file as we go 
+- Implement features incrementally, updating this file as we go
+- Use step-by-step messaging with continuation prompts 

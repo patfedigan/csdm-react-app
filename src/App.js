@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/models" element={<ModelList />} />
-        <Route path="/visualizer" element={<ModelVisualizer />} />
+        <Route path="/visualizer/:modelId" element={<ModelVisualizer />} />
       </Routes>
     </Router>
   );

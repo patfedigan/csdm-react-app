@@ -15,6 +15,16 @@ const businessModels = [
     id: 'service',
     name: 'Service-Based Model',
     description: 'The bank manages servers and databases (e.g., Oracle) to deliver financial statement logs and other services.'
+  },
+  {
+    id: 'financial-logs',
+    name: 'Financial Statement Logs',
+    description: 'Stores and manages financial statement logs in Oracle DB.',
+  },
+  {
+    id: 'customer-service',
+    name: 'Customer Service',
+    description: 'Manages customer inquiries and support tickets.',
   }
 ];
 
