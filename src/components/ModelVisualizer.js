@@ -33,6 +33,16 @@ function ModelVisualizer() {
   }, []);
 
   React.useEffect(() => {
+    const loadCMDBData = async () => {
+      setIsLoading(true);
+      const result = await fetchCMDBItems();
+      if (result.success) {
+        setCmdbData(result.data);
+      } else {
+        setError('Failed to load CMDB data');
+      }
+      setIsLoading(false);
+    }
     loadCMDBData();
   }, [loadCMDBData]);
 
